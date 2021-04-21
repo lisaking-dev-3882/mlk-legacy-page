@@ -1,21 +1,39 @@
 body {
-    display: flex;
+    display: grid;
+    text-align: center;
     background-image: linear-gradient(to bottom, #858c90, #BBB);
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: Arial, Helvetica, sans-serif;
 }
 .img-div {
-    display: inline-flex;
+    display: grid;
+    justify-content: space-evenly;
 }
 #title {
-    display: flex;
+    display: grid;
     justify-content: center;
 }
 .quote {
-    display: flex;
+    display: grid;
     justify-content: center;
 }
+ul {
+    list-style-type: none;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    justify-content: center;
+
+}
+/*div {
+    margin: 5px;
+  
+}*/
+
+
+
 
   
   
